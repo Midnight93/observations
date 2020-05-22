@@ -24,7 +24,7 @@ import glob
 import cv2
 
 
-filepath = 'mask1_model_resnet50.pth'
+filepath = 'modello_mascherina_torch.pth'
 model = torch.load(filepath)
 
 
